@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    //declaracao de variaveis
+    int num1, num2;
+    int divisao;
+    //entrada de dados
+    printf("calcule o num1:");
+    scanf("%d", &num1);
+    printf("calcule o num2:");
+    scanf("%d", &num2);
+    //processamento
+   divisao = num1 / num2;
+    printf("o resultado dividido e:%d", divisao);
+    
+    return 0;
+}
