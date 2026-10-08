@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    //declaracao de variaveis
+    float num1, num2;
+    float subtracao;
+    //entrada de dados
+    printf("digite o primeiro numero:");
+    scanf("%f", &num1);
+    printf("digite o segundo numero:");
+    scanf("%f", &num2);
+    //processamento
+   subtracao = num1 - num2;
+    printf("a soma e:%f", subtracao);
+    return 0;
+}
