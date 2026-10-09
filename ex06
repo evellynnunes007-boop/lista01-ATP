@@ -1,0 +1,16 @@
+int main(){
+    //declaracao de variaveis
+    float salario, salariominimo, quantidade;
+    //entrada de dados
+    printf("digite o salario do funcionario");
+    scanf("%f", &salario);
+    printf("digite o valor do salario minimo");
+    scanf("%f", &salariominimo);
+    //processamento
+    quantidade = salario/salariominimo;
+    //saida
+    printf("o funcionario ganha %2fsalario minimo", quantidade);
+    
+    
+    return 0;
+}
